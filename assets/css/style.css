@@ -166,3 +166,9 @@ img.avatar {
   width: 100%;
   vertical-align: middle;
 }
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
