@@ -134,6 +134,10 @@ header nav a:hover {
   padding: 0px 15px;
 }
 
+.page-section>h2 {
+  margin-bottom: 10px;
+}
+
 img.avatar {
   width: 200px;
   float: left;
@@ -158,9 +162,12 @@ img.avatar {
 .project-card:first-child {
   flex: 0 0 100%;
 }
+.project-card:first-child img {
+  max-height: 500px;
+}
 
 .project-card {
-  flex: 0 0 50%;
+  flex: 0 0 100%;
   border: 3px solid var(--background);
 }
 
@@ -169,6 +176,8 @@ img.avatar {
   vertical-align: middle;
   max-width: 100%;
   min-height: 100%;
+  max-height: 200px;
+  object-fit: cover;
 }
 
 .project-card:hover {
@@ -211,6 +220,7 @@ footer {
     border-right: 4px solid var(--primary);
     padding-right: 5px;
     margin-right: 10px;
+    margin-bottom: unset;
     flex: 0 0 200px;
   }
 }
@@ -218,5 +228,13 @@ footer {
 @media screen and (min-width: 1200px) {
   .page-section {
     padding: 0px;
+  }
+
+  .project-card {
+    flex: 0 0 50%;
+  }
+
+  .project-card img {
+    max-height: 300px;
   }
 }
