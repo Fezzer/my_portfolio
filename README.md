@@ -13,7 +13,17 @@ The initial aims are:
 - When images of the applications are clicked then the user is taken to that deployed application.
 - When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport.
 
-For the time being (and I have no need for a page such as this) I have linked the projects to some random pages instead of actual sample projects.
+For the time being I have linked the projects to some random pages instead of actual sample projects.
+
+Further work to do:
+- Improve HTML of the project cards, probably should make more use of classes.
+- Tidy and optimise CSS.
+- Add a hover effect to the project cards (maybe with a transition).
+- I would also like some improvement in the sizes of the project cards and centering of the images displayed.
+
+The live page can be found here, [https://fezzer.github.io/my_portfolio/](https://fezzer.github.io/my_portfolio/)
+
+![Screenshot of the page](./readme-assets/screenshot.png)
 
 ## Credits
 
